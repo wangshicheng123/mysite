@@ -12,6 +12,12 @@
     <div class="line"></div>
     <!-- 技能描述 -->
     <Skill></Skill>
+    <div class="line"></div>
+    <!-- 作品展示 -->
+    <Work></Work>
+    <div class="line"></div>
+    <!-- 底部信息 -->
+    <Footer></Footer>
   </div>
 </template>
 
@@ -19,12 +25,16 @@
 import Header from "../components/Header.vue"
 import Content from "../components/Content.vue"
 import Skill from "../components/Skill.vue"
+import Work from "../components/Work.vue"
+import Footer from "../components/Footer.vue"
 export default {
   name: "home",
   components: {
     Header,
     Content,
     Skill,
+    Work,
+    Footer
   }
 };
 </script>
@@ -34,7 +44,7 @@ export default {
 }
 .line{
   width: 100%;
-  border-bottom: 1px dotted #333;
+  border-bottom: 1px dotted #fff;
 }
 .img-container {
   height: 720px;
@@ -47,13 +57,6 @@ export default {
   height: 100%;
   background-color: transparent;
 }
-/* .overlay {
-  height: 720px;
-  width: 100%;
-  position: absolute;
-  z-index: -1;
-  background-color: #00ADB5;
-} */
 .content{
   margin-top: 60px;
 }

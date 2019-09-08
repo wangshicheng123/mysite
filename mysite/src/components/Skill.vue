@@ -272,7 +272,7 @@ export default {
 
 <style scoped>
 .container {
-  padding: 112px 0px;
+  padding: 100px 0px;
 }
 .title {
   margin-bottom: 56px;
